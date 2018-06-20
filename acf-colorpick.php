@@ -74,7 +74,7 @@ class colorpick_ext_acf_field_colorpick {
 		
 		
 		// include
-		include_once('fields/class-colorpick_ext-acf-field-colorpick-v' . $version . '.php');
+		include_once( plugin_dir_path( __FILE__ ) . 'fields/class-colorpick-ext-v' . $version . '.php');
 	}
 	
 }
